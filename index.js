@@ -1,5 +1,7 @@
-var readlineSync = require('readline'); 
+/* 
+var readlineSync = require('node_modules/readline/readline.js'); */
+var readlineSync = require('readline-sync');
 
-var nombreUsuario = readlineSyncjajaj.pregunta ( '¿Puede darme su nombre? ') ; 
+var nombreUsuario = readlineSync.question ( '¿Puede darme su nombre?'); 
 
-consola.log( ' Hola  ' +  nombreUsuario  + ' ! ' )   ;
+console.log( 'Hola  ' +  nombreUsuario  + ' ! ' );
